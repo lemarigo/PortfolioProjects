@@ -1,3 +1,5 @@
+-- Covid dataset - Data Exploration
+
 SELECT *
 FROM PortfolioProject..CovidDeaths
 Where continent is not null
