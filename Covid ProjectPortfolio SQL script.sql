@@ -186,7 +186,50 @@ Where dea.continent is not null
 -- Order by 2,3
 
 
+
 -- This view will be used for visualizations and dashboards
 
 Select *
 From PercentPopulationVaccinated
+
+-- After data exploration --> These Queries will use for final Tableau viz
+
+-- GLOBAL Summary --> Tableau table 1
+
+SELECT SUM(new_cases) as TotalCases, SUM(cast(new_deaths as bigint)) as TotalDeaths, SUM(cast(new_deaths as bigint))/SUM(new_cases)*100 as DeathPercentage
+FROM PortfolioProject..CovidDeaths
+-- Where location like '%brazil%'
+Where continent is not null
+-- Group by date
+ORDER BY 1,2
+
+
+-- Tableau table 2
+
+SELECT location, SUM(cast(new_deaths as bigint)) as TotalDeathCount
+FROM PortfolioProject..CovidDeaths
+Where continent is null
+and location not in ('World', 'European Union', 'International')
+Group by location
+Order by TotalDeathCount desc
+
+
+-- Tableau table 3
+-- What country has the highest infection rate compared to Population?
+
+SELECT location, population, MAX(total_cases) as HighestInfectionCount, MAX((total_cases/population))*100 as CasesPercentage
+FROM PortfolioProject..CovidDeaths
+-- Where location like '%brazil%'
+Group by location, population
+ORDER BY CasesPercentage desc
+
+-- Tableau table 4
+-- Including date
+
+SELECT location, population, date, MAX(total_cases) as HighestInfectionCount, MAX((total_cases/population))*100 as CasesPercentage
+FROM PortfolioProject..CovidDeaths
+-- Where location like '%brazil%'
+Group by location, population, date
+ORDER BY CasesPercentage desc
+
+
