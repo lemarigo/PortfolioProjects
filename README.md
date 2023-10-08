@@ -3,7 +3,7 @@ Data Exploration, Preparation and Visualization using SQL, Tableau and Power BI
 
 This repository displays the most recent data analysis projects I conducted using SQL, Tableu and Power BI  
 
-**Covid-19 Dashboard**  
+**Covid-19 - Tableau Dashboard**  
 
 Dataset source:
 
@@ -12,3 +12,13 @@ I cleaned and prepared the data using SQL (the code can be found in the file nam
 
 The Tableau dashboard is saved in this repository as a pdf document ("Tableau - Covid Dashboard.pdf") and it can also be visualized in my Tableau profile in the following link --> https://public.tableau.com/app/profile/leandro.marigo/viz/CovidDashboard_16866832289280/Dashboard1  
 
+<br>
+
+**Global cost of living - Power BI Dashboard**  
+
+Dataset source: https://www.kaggle.com/datasets/mvieira101/global-cost-of-living  
+
+For creating the dashboard to display and compare the cost of living across different countries I used Excel and Power BI to clean and prepare the data.
+The step by step can be found in the pdf document named "Cost of Living dataset - Data Cleaning and Transformation using Excel and Power BI.pdf" or in the link --> https://github.com/lemarigo/PortfolioProjects/blob/main/Cost%20of%20Living%20dataset%20-%20Data%20Cleaning%20and%20Transformation%20using%20Excel%20and%20Power%20BI.pdf  
+
+The dashboard can be visualized in the pdf document "Power BI Dashboard - World cities - Income and Cost of Living.pdf" --> https://github.com/lemarigo/PortfolioProjects/blob/main/Power%20BI%20Dashboard%20-%20World%20cities%20-%20Income%20and%20Cost%20of%20Living.pdf
