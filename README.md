@@ -6,7 +6,7 @@ This repository displays the most recent data analysis projects I conducted usin
 
 **Covid-19 - Tableau Dashboard**  
 
-Dataset source:
+Dataset source: https://ourworldindata.org/covid-deaths  
 
 The dashboard displays the Covid global numbers (as of 30th April 2021) including forecasting projections based on trends for some countries such as the US, Brazil, Ireland and India.  
 
@@ -31,7 +31,12 @@ The dashboard can be visualized in the pdf document "Power BI Dashboard - World 
 
 **Nashvile Housing data cleaning - SQL Script**  
 
-Dataset source:  
+Dataset source:  https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data  
+
+SQL language is employed to clean and prepare the data, the original dataset contains missing data, incorrect datatypes, duplicates, and no standartization in columns such as address that needs to be standardized prior to analyzing the data.
+
+The SQL script can be found here --> https://github.com/lemarigo/PortfolioProjects/blob/main/NashvilleHousing%20data%20cleaning%20-%20SQL%20script.sql  
+And the dataset used here --> https://github.com/lemarigo/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx  
 
 
 
