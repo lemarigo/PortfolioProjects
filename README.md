@@ -2,6 +2,7 @@
 Data Exploration, Preparation and Visualization using SQL, Tableau and Power BI  
 
 This repository displays the most recent data analysis projects I conducted using SQL, Tableu and Power BI  
+<br>
 
 **Covid-19 - Tableau Dashboard**  
 
