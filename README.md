@@ -25,4 +25,13 @@ The dashboard identifies which countries accross the Globe has the highest/lowes
 For creating the dashboard I used Excel and Power BI to clean and prepare the data.
 The step by step can be found in the pdf document named "Cost of Living dataset - Data Cleaning and Transformation using Excel and Power BI.pdf" or in the link --> https://github.com/lemarigo/PortfolioProjects/blob/main/Cost%20of%20Living%20dataset%20-%20Data%20Cleaning%20and%20Transformation%20using%20Excel%20and%20Power%20BI.pdf  
 
-The dashboard can be visualized in the pdf document "Power BI Dashboard - World cities - Income and Cost of Living.pdf" --> https://github.com/lemarigo/PortfolioProjects/blob/main/Power%20BI%20Dashboard%20-%20World%20cities%20-%20Income%20and%20Cost%20of%20Living.pdf
+The dashboard can be visualized in the pdf document "Power BI Dashboard - World cities - Income and Cost of Living.pdf" --> https://github.com/lemarigo/PortfolioProjects/blob/main/Power%20BI%20Dashboard%20-%20World%20cities%20-%20Income%20and%20Cost%20of%20Living.pdf  
+
+<br>
+
+**Nashvile Housing data cleaning - SQL Script**  
+
+Dataset source:  
+
+
+
