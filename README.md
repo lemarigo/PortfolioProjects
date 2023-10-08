@@ -1,5 +1,5 @@
 # PortfolioProjects  
-Data Exploration, Preparation and Visualization using SQL, Tableau and Power BI  
+Data Exploration, Preparation and Visualization using SQL, Excel, Tableau and Power BI  
 
 This repository displays the most recent data analysis projects I conducted using SQL, Excel, Tableu and Power BI  
 <br>
